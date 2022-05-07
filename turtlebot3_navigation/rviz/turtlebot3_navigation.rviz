@@ -31,7 +31,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: LaserScan
+    SyncSource: ""
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -345,18 +345,7 @@ Visualization Manager:
       Tree:
         map:
           odom:
-            base_footprint:
-              base_link:
-                base_scan:
-                  {}
-                caster_back_link:
-                  {}
-                imu_link:
-                  {}
-                wheel_left_link:
-                  {}
-                wheel_right_link:
-                  {}
+            {}
           uwb_anchor_0:
             {}
           uwb_anchor_1:
